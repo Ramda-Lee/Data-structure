@@ -2,10 +2,15 @@
 *.d
 
 # Object files
+*.out
 *.o
-*.ko
+*.exe
+*.bin
 *.obj
-*.elf
+*.a
+*.so
+*.dylib
+*.dll
 
 # Linker output
 *.ilk
@@ -50,3 +55,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# VS Code Setting file
+.vscode/
+tasks.json
+launch.json
+/bin/*
